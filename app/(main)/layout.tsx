@@ -3,13 +3,13 @@ import Navbar from '@/components/Navbar/navbar';
 
 const layout = ({
     children,
-  }: Readonly<{
+  }:{
     children: React.ReactNode;
-  }>) => {
+  }) => {
     
   return (
     <div>
-        <Navbar />
+      <Navbar />
       {children}
     </div>
   )
