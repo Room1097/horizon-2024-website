@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/Navbar/navbar';
+import Footer from '@/components/Footer/footer';
+import { FloatingNavDemo } from '@/components/FloatingNavbar/floating-navbar-comp';
 
 const layout = ({
     children,
@@ -9,8 +11,9 @@ const layout = ({
     
   return (
     <div>
-      <Navbar />
+      <FloatingNavDemo />
       {children}
+      <Footer />
     </div>
   )
 }

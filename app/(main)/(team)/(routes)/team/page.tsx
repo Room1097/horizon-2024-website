@@ -1,10 +1,12 @@
+"use client"
 import React from 'react'
+import TechnicalCommittee from '@/components/TechnicalCommittee/technical-commitee'
 
 const page = () => {
   return (
-    <div>
-      Team Page
-    </div>
+   <>
+    <TechnicalCommittee />
+   </>
   )
 }
 
