@@ -19,13 +19,13 @@ function Navbar() {
     }, []);
 
     return (
-        <div className='flex justify-between items-center w-full px-16 py-2'>
-            <h1>HORIZON 24'</h1>
+        <div className='flex justify-between items-start w-full lg:px-16  lg:py-2 fixed z-30 '>
+            <h1 className='p-2'>HORIZON</h1>
             <div className='flex gap-8 text-lg' ref={Nav}>
                 {navToggle ? (
                     <FullLengthNavbar />
                 ) : (
-                    <div className="hover:cursor-pointer" onClick={() => setNavToggle(true)}>Menu</div>
+                    <div className="hover:cursor-pointer p-2" onClick={() => setNavToggle(true)}>Menu</div>
                 )}
             </div>
         </div>
