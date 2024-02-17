@@ -4,9 +4,9 @@ import TechnicalCommittee from '@/components/TechnicalCommittee/technical-commit
 
 const page = () => {
   return (
-   <>
+   <div className='pt-20'>
     <TechnicalCommittee />
-   </>
+   </div>
   )
 }
 
