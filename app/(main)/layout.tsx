@@ -11,7 +11,6 @@ const layout = ({
     
   return (
     <div>
-      <Preloader />
       <FloatingNavDemo />
       {children}
       <Footer />

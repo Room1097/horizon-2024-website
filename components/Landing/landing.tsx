@@ -1,5 +1,6 @@
 "use client"
 import React, { useEffect } from "react";
+import Preloader from "../Preloader/preloader";
 import { WavyBackground } from "../Wavy Background/background";
 import gsap from "gsap";
 
@@ -10,7 +11,7 @@ const Landing = () => {
       y: 50,
       opacity: 0,
   },{
-      delay: 3,
+      delay: 4,
       duration : 1,
       y: 0,
       opacity: 1,
@@ -19,7 +20,7 @@ const Landing = () => {
   gsap.fromTo("#hero-sub-text", {
       opacity: 0,
   },{
-      delay: 4,
+      delay: 5,
       duration:1,
       opacity:1
   })
@@ -27,6 +28,7 @@ const Landing = () => {
 
   return (
     <div className="landing-container">
+      <Preloader />
       <WavyBackground className="max-w-4xl mx-auto pb-40 wavy-background">
         <div className="text-center">
           <p
