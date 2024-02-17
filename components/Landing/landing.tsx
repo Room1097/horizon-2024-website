@@ -33,13 +33,13 @@ const Landing = () => {
         <div className="text-center">
           <p
             id="hero-text"
-            className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var"
+            className="text-5xl md:text-7xl lg:text-7xl text-white font-bold inter-var"
           >
             Horizon 24'
           </p>
           <p
             id="hero-sub-text"
-            className="text-base md:text-lg mt-4 text-white font-normal inter-var"
+            className="text-lg px-8 lg:text-xl md:text-lg mt-4 text-white font-normal inter-var"
           >
             Welcome to the Technical Festival of IIIT Vadodara - ICD.
           </p>
