@@ -10,7 +10,7 @@ import { joinUsData } from "@/components/JoinUsCard/JoinUsCardDB";
 const About = () => {
 
   return (
-    <div className=" pt-20 min-h-screen relative">
+    <div className=" lg:pt-20 pt-12 min-h-screen relative">
       <div className="relative ">
         <div className="lg:w-full lg:h-screen w-[90%] h-[55vh] ">
           <div className="absolute inset-0 bg-black opacity-40 z-10 "></div>
@@ -84,7 +84,7 @@ const About = () => {
         </h1>
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex flex-col justify-center items-center">
       {InfoCardDB.map((card, index) => (
         <InfoCard
           key={index}

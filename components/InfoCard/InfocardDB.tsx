@@ -5,5 +5,17 @@ export const InfoCardDB = [
       desc2: "Along with the 5 Clubs, Technical Committee is the main Organizing body of the Technical Festival",
       img: "/images/Logos/Tech.png"
     },
+    {
+      title: "Argo Gaming Club",
+      desc1: "Argo Gaming Club is a vibrant community dedicated to immersive gaming experiences, friendly competition, and fostering connections among enthusiasts. Join us for thrilling tournaments, diverse gaming events, and a welcoming atmosphere where players of all levels can thrive and share their passion for gaming.",
+      desc2: "",
+      img: "/images/Logos/ARGO.png"
+    },
+    {
+      title: "DCodr Coding Club",
+      desc1: "DCodr is the premier coding club at IIIT Vadodara - ICD, dedicated to fostering a competitive coding environment. Through regular competitions, workshops, and collaborative projects, we empower students to hone their coding skills and expand their knowledge.",
+      desc2: " At DCodr, we believe in the power of code to shape the future, ignite creativity, and solve complex problems.",
+      img: "/images/Logos/DCODR.png"
+    },
   ];
   

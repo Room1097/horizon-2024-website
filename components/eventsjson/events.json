@@ -1,32 +1,11 @@
 [
     { 
-        "name":"Code Voyage",
-        "Wname":"CodeVoyage",
-        "img":"https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "eventDate":"25 Feb - 26 Feb",
-        "regDate":"20 Feb",
-        "organizingClub":"Coding club",
-        "accent":"orange"
-    },
-
-    { 
         "name":"Robo Arena",
         "Wname":"RoboArena",
-        "img":"https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "img":"/images/posters/RoboArena/RoboArena.png",
         "eventDate":"25 Feb - 26 Feb",
         "regDate":"20 Feb",
         "organizingClub":"Coding club",
         "accent":"orange"
-    },
-    
-    { 
-        "name":"Web scraping",
-        "Wname":"Webscraping",
-        "img":"https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "eventDate":"25 Feb - 26 Feb",
-        "regDate":"20 Feb",
-        "organizingClub":"Coding club",
-        "accent":"orange"
-    }
-    
+    }  
  ]
