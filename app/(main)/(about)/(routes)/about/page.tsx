@@ -84,7 +84,7 @@ const About = () => {
         </h1>
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex flex-col justify-center items-center">
       {InfoCardDB.map((card, index) => (
         <InfoCard
           key={index}

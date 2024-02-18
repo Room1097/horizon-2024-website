@@ -1,7 +1,5 @@
 import React from "react";
-import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
-// import "./sponsor.css";
 
 interface EventCardProps {
   img: string;
@@ -9,29 +7,26 @@ interface EventCardProps {
   eventDate: string;
   regDate: string;
   organizingClub: string;
-  accent : string;
-
+  accent: string;
 }
 
 const EventCard: React.FC<EventCardProps> = (props) => {
-  const { img, name, eventDate,regDate,organizingClub,accent } = props;
+  const { img, name, eventDate, regDate, organizingClub, accent } = props;
 
   return (
-    <div className={ `w-[50rem] h-max p-6 border-2  rounded-sm`}>
-         <h1 className=" text-4xl">{name}</h1>
-         <Separator className="my-3 "/>
-         <div className="w-full h-full flex gap-x-12">
-            <img src={img} alt={name} className=" h-72 w-"/>
-            <div>
-                <h3 className="text-xl">Event date : {eventDate}</h3>
-                <h3 className="text-xl">Registration date : {regDate}</h3>
-                <h3 className="text-xl">Organizing Club : {organizingClub}</h3>
-                <Button variant="outline" size="lg" className="mt-24 text-xl h-10">
-                    Register
-                </Button>
-            </div>
-         </div>
-
+    <div className="border border-gray-300 rounded-lg p-4 shadow-md flex flex-col">
+      <div className="w-[30vh]">
+        <img src={img} alt={name} loading="lazy" className="rounded-lg" />
+      </div>
+      <div className="mt-4">
+        <h2 className="text-xl font-semibold">{name}</h2>
+        <p className="text-gray-600">Event Date: {eventDate}</p>
+        <p className="text-gray-600">Registration Date: {regDate}</p>
+        <p className="text-gray-600">Organizing Club: {organizingClub}</p>
+      </div>
+      <div className="mt-4">
+        <Button color={accent}>Register Now</Button>
+      </div>
     </div>
   );
 };
