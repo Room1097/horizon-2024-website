@@ -1,7 +1,7 @@
 // import React from "react";
 // import EventCard from "@/components/EventCard/EventCard";
 // import { Separator } from "@/components/ui/separator";
-// import events from "@/components/eventsjson/events.json";
+import events from "@/components/EventCard/events.json";
 // import Link from "next/link";
 
 import { ComingSoon } from "@/components/ComingSoon/comingSoon";
