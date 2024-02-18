@@ -1,5 +1,5 @@
 import React from 'react'
-import eventList from '@/components/eventsjson/events.json'
+import eventList from '@/components/EventCard/events.json'
 import { notFound } from 'next/navigation'
 import { ComingSoon } from '@/components/ComingSoon/comingSoon'
 
