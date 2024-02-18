@@ -1,9 +1,10 @@
 import React from 'react'
+import { ComingSoon } from '@/components/ComingSoon/comingSoon'
 
 const page = () => {
   return (
-    <div className='pt-20'>
-      Guest Page
+    <div className='lg:pt-20 pt-12'>
+      <ComingSoon />
     </div>
   )
 }

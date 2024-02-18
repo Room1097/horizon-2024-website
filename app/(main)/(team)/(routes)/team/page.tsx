@@ -1,11 +1,11 @@
-"use client"
 import React from 'react'
-import TechnicalCommittee from '@/components/TechnicalCommittee/technical-commitee'
+// import TechnicalCommittee from '@/components/TechnicalCommittee/technical-commitee'
+import { ComingSoon } from '@/components/ComingSoon/comingSoon'
 
 const page = () => {
   return (
-   <div className='pt-20'>
-    <TechnicalCommittee />
+   <div className='lg:pt-20 pt-12'>
+      <ComingSoon />
    </div>
   )
 }

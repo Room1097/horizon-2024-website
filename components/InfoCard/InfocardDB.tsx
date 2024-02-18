@@ -11,5 +11,11 @@ export const InfoCardDB = [
       desc2: "",
       img: "/images/Logos/ARGO.png"
     },
+    {
+      title: "DCodr Coding Club",
+      desc1: "DCodr is the premier coding club at IIIT Vadodara - ICD, dedicated to fostering a competitive coding environment. Through regular competitions, workshops, and collaborative projects, we empower students to hone their coding skills and expand their knowledge.",
+      desc2: " At DCodr, we believe in the power of code to shape the future, ignite creativity, and solve complex problems.",
+      img: "/images/Logos/DCODR.png"
+    },
   ];
   
