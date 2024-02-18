@@ -6,7 +6,7 @@ import { CiLinkedin, CiMail } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="flex lg:flex-row flex-col gap-20 justify-around mt-20 items-center pb-8">
+    <div className="flex lg:flex-row flex-col gap-20 justify-around mt-20 items-center pb-8 ">
       <div className="flex flex-col justify-center gap-8 items-center ">
       <img src="/images/H_logo_.svg" className="w-[8rem]" alt="" />
         <ul className="flex gap-4 w-[24rem] text-xl flex-wrap items-center justify-center">

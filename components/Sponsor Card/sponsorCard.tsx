@@ -12,7 +12,7 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
   const { img, name, title } = props;
 
   return (
-    <div className="sponsor-card-container rounded-xl w-max h-[30rwm] bordear-2  p-10 flex flex-col items-center " >
+    <div className="sponsor-card-container rounded-xl w-max h-[30rem] bordear-2  p-10 flex flex-col items-center " >
       <h2 className="text-2xl font-primary pb-5 text-wrap bordear-2">{title}</h2>
       <h2 className="text-2xl font-primary pb-5 text-wrap bordear-2">Sponsor</h2>
       
