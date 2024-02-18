@@ -11,6 +11,21 @@
   src: url(/fonts/KodeMono.ttf);
 }
 
+@font-face {
+  font-family: Nuixyber;
+  src: url(/fonts/Nuixyber.ttf);
+}
+
+@font-face {
+  font-family: Valorax;
+  src: url(/fonts/Valorax.ttf);
+}
+
+@font-face {
+  font-family: Transformer;
+  src: url(/fonts/Transformers.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;

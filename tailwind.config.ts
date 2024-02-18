@@ -74,7 +74,10 @@ const config = {
       },
       fontFamily :{
         primary : ["MechSuit"],
-        mono : ["KodeMono"]
+        mono : ["KodeMono"],
+        secondary : ["Valorax"],
+        fancy : ["Nuixyber"],
+        transformer : ["Transformer"],
       },
     },
   },
