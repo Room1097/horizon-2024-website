@@ -49,7 +49,8 @@ export function BackgroundGradientDemo({
           alt={name}
           height="200"
           width="200"
-          className="object-contain"
+          className="object-cover rounded-xl"
+
         />
        </div>
        <div className="flex justify-center items-center flex-col">
