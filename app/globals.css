@@ -3,28 +3,51 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: MechSuit;
-  src: url(/fonts/Mechsuit.otf);
-}
-@font-face {
-  font-family: KodeMono;
-  src: url(/fonts/KodeMono.ttf);
-}
-
-@font-face {
-  font-family: Nuixyber;
-  src: url(/fonts/Nuixyber.ttf);
+  font-family: 'Transformer';
+  src: url('/fonts/TransformersMovie.woff2') format('woff2'),
+      url('/fonts/TransformersMovie.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: Valorax;
-  src: url(/fonts/Valorax.ttf);
+  font-family: 'MechSuit';
+  src: url('/fonts/Mechsuit.woff2') format('woff2'),
+      url('/fonts/Mechsuit.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: Transformer;
-  src: url(/fonts/Transformers.ttf);
+  font-family: 'Valorax';
+  src: url('/fonts/valorax.woff2') format('woff2'),
+      url('/fonts/valorax.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'KodeMono';
+  src: url('/fonts/KodeMono-Regular.woff2') format('woff2'),
+      url('/fonts/KodeMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nuixyber';
+  src: url('/fonts/NuixyberProConvert.woff2') format('woff2'),
+      url('/fonts/NuixyberProConvert.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 * {
     margin: 0;
