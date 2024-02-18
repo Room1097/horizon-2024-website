@@ -2,10 +2,19 @@
     { 
         "name":"Robo Arena",
         "Wname":"RoboArena",
-        "img":"/images/posters/RoboArena/RoboArena.png",
-        "eventDate":"25 Feb - 26 Feb",
-        "regDate":"20 Feb",
-        "organizingClub":"Coding club",
+        "img":"/images/Posters/RoboArena.png",
+        "eventDate":"25th Feb - 26th Feb",
+        "regDate":"14th Feb",
+        "organizingClub":"Robotics club",
         "accent":"orange"
+    }  ,
+    { 
+        "name":"Balareon",
+        "Wname":"RoboArena",
+        "img":"/images/Posters/BGMI.png",
+        "eventDate":"24th Feb - 2nd Mar",
+        "regDate":"14th Feb",
+        "organizingClub":"Gaming club",
+        "accent":"violet"
     }  
  ]

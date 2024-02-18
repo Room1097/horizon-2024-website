@@ -17,5 +17,17 @@ export const InfoCardDB = [
       desc2: " At DCodr, we believe in the power of code to shape the future, ignite creativity, and solve complex problems.",
       img: "/images/Logos/DCODR.png"
     },
+    {
+      title: "StockOPS Finance Club",
+      desc1: "StockOps - The Finance Club, part of IIITV - ICD's Technical Committee, is dedicated to finance education and skill development. Through competitions, and events, it empowers students to understand and engage with financial markets. ",
+      desc2: "",
+      img: "/images/Logos/DCODR.png"
+    },
+    {
+      title: "Droid Robotics Club",
+      desc1: "The Robotics Club of IIITVICD, Droid, is a first of its kind club. This club was started for students who love to dream, visualise, engineer and create! Droid is working towards pushing the bounds of technology. ",
+      desc2: "Robotics is the field where software and hardware engineering meet. Droid brings to the students the forefront of technology, innovation and a will to create modern day solutions for world problems ranging from medical, environmental to those we encounter in daily life. Under Horizon, Droid aims to achieve great heights and inspire students to bring their ideas to life!",
+      img: "/images/Logos/DROID.png"
+    },
   ];
   
