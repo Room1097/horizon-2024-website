@@ -33,9 +33,9 @@ const Landing = () => {
         <div className="text-center">
           <p
             id="hero-text"
-            className="text-5xl md:text-7xl lg:text-7xl text-white font-bold inter-var"
+            className="text-5xl font-primary md:text-7xl lg:text-7xl text-white font-bold inter-var"
           >
-            Horizon 24'
+            Horizon
           </p>
           <p
             id="hero-sub-text"
