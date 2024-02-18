@@ -1,12 +1,8 @@
 import React from 'react'
 import eventList from '@/components/eventsjson/events.json'
 import { notFound } from 'next/navigation'
+import { ComingSoon } from '@/components/ComingSoon/comingSoon'
 
-async function generateStatic() {
-    return eventList.map((p)=>({
-        eventName : p.Wname,
-    }))
-}
 
 const page = ({params : {eventName}}:{params:{eventName : string}}) => {
     const event = eventList.find(p=>p.Wname === eventName)
@@ -15,7 +11,7 @@ const page = ({params : {eventName}}:{params:{eventName : string}}) => {
     }
  
     return (
-    <div className='pt-10'>page</div>
+    <div className='pt-10'><ComingSoon/></div>
   )
 }
 
