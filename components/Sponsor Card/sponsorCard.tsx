@@ -1,5 +1,6 @@
 import React from "react";
 import "./sponsor.css";
+import { Separator } from "@/components/ui/separator";
 
 interface SponsorCardProps {
   img: string;
@@ -11,23 +12,14 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
   const { img, name, title } = props;
 
   return (
-    <div className="flex flex-col justify-center items-center w-[250px] h-[155px]">
-      <h1>{title}</h1>
-      <div className="sponsor-card-container w-[243px] h-[153px] bg-white">
-        <div className="sponsor-card overflow-hidden relative left-[1.5px] top-[1.5px] bg-red-200 w-[240px] h-[150px] flex flex-col justify-center items-center border-2 border-zinc-50 inset-1">
-          <div className="sponsor-image justify-center items-center bg-black w-full h-[80%]">
-            <img
-              className="overflow-hidden"
-              src={img}
-              alt=""
-              loading="lazy"
-            />
-          </div>
-          <div className="h-[20%] flex justify-center items-center bg-red-200 w-full">
-            <h1>{name}</h1>
-          </div>
-        </div>
-      </div>
+    <div className="sponsor-card-container rounded-xl w-max h-[30rwm] bordear-2  p-10 flex flex-col items-center " >
+      <h2 className="text-2xl font-primary pb-5 text-wrap bordear-2">{title}</h2>
+      <h2 className="text-2xl font-primary pb-5 text-wrap bordear-2">Sponsor</h2>
+      
+      {/* <Separator className="w-[100%] mb-5 bg-gradient-to-r from-violet-200 to-pink-200"/> */}
+    <div className=" w-96  h-72 sponsor-card bg-gradient-to-r from-fuchsia-600 to-purple-600">
+     <img src={img} className=" absolute mt-4 ml-4 h-[16rem] w-[22rem]"/>
+    </div>
     </div>
   );
 };
