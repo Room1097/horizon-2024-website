@@ -6,6 +6,10 @@
   font-family: MechSuit;
   src: url(/fonts/Mechsuit.otf);
 }
+@font-face {
+  font-family: KodeMono;
+  src: url(/fonts/KodeMono.ttf);
+}
 
 * {
     margin: 0;

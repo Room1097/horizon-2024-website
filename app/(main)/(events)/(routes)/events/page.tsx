@@ -1,7 +1,6 @@
 import React from 'react'
 import EventCard from '@/components/EventCard/EventCard'
 import { Separator } from '@/components/ui/separator'
-import '@/components/eventpagecss/eventpagecss.css'
 
 
 const page = () => {

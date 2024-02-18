@@ -73,7 +73,8 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily :{
-        primary : ["MechSuit"]
+        primary : ["MechSuit"],
+        mono : ["KodeMono"]
       },
     },
   },
