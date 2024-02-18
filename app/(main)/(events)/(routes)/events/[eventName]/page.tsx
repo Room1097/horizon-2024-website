@@ -2,7 +2,7 @@ import React from 'react'
 import eventList from '@/components/eventsjson/events.json'
 import { notFound } from 'next/navigation'
 
-export async function generateStatic() {
+async function generateStatic() {
     return eventList.map((p)=>({
         eventName : p.Wname,
     }))
