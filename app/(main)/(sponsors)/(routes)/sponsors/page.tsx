@@ -37,7 +37,7 @@ const Sponsors = () => {
           large = {false}
         />
         <SponsorCard
-          img="/images/SponsorLogos/RevUP.jpeg"
+          img="/images/SponsorLogos/RevUP.png"
           title="Title"
           subtitle="Sponsor"
           name="RevUP"
