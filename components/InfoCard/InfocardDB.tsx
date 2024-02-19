@@ -25,8 +25,8 @@ export const InfoCardDB = [
     },
     {
       title: "Droid Robotics Club",
-      desc1: "The Robotics Club of IIITVICD, Droid, is a first of its kind club. This club was started for students who love to dream, visualise, engineer and create! Droid is working towards pushing the bounds of technology. ",
-      desc2: "Robotics is the field where software and hardware engineering meet. Droid brings to the students the forefront of technology, innovation and a will to create modern day solutions for world problems ranging from medical, environmental to those we encounter in daily life. Under Horizon, Droid aims to achieve great heights and inspire students to bring their ideas to life!",
+      desc1: "The Robotics Club of IIITVICD, Droid, was started for students who love to engineer and create modern day solutions to world problems. Robotics is the field where software and hardware engineering meet and this club strives to impart this very passion.",
+      desc2: "Droid aims to inspire students to bring their ideas to life!",
       img: "/images/Logos/DROID.png"
     },
   ];
