@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import FullLengthNavbar from './fullLengthNavbar';
 import './navbar.css';
+import Link from 'next/link';
 
 function Navbar() {
     const [navToggle, setNavToggle] = useState(false);
@@ -38,7 +39,9 @@ function Navbar() {
 
     return (
         <div className='glass flex justify-between items-start w-full lg:px-16 lg:py-2 fixed z-30' ref={Nav}>
-            <h1 className='p-2'>HORIZON 24'</h1>
+            <Link href="\">
+                <h1 className='p-2'>HORIZON 24'</h1>
+            </Link>
             <div className='flex gap-8 text-lg'>
                 {navToggle ? (
                     <FullLengthNavbar />
