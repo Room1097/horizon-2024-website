@@ -49,7 +49,7 @@ const Landing = () => {
       <h1 className=" font-mono w-full text-center text-6xl">
         About Horizon
       </h1>
-      <Separator className="my-6 w-11/12 mx-auto bg-primary-foreground"/>
+      <Separator className="my-6 mx-auto bg-primary-foreground"/>
       <div className=" text-left pl-12 pr-4 lg:text-center text-sm lg:text-lg font-mono mt-8 lg:mt-8 text-zinc-200 flex flex-col gap-8 items-center lg:px-16">
           <p>
             Join us for an incredible experience at{" "}
@@ -63,6 +63,7 @@ const Landing = () => {
           </div>
           
     </div>
+    
   );
 };
 
