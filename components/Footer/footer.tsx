@@ -44,14 +44,14 @@ const Footer = () => {
         <ul className="flex gap-8 text-zinc-400">
           <li className="hover:translate-y-[-6px] duration-300 text-4xl">
             {" "}
-            <a href="">
+            <a href="https://www.instagram.com/technical_iiitvicd/">
               {" "}
               <FaInstagram />{" "}
             </a>
           </li>
           <li className="hover:translate-y-[-6px] duration-300 text-4xl">
             {" "}
-            <a href="">
+            <a href="mailto:technical@diu.iiitvadodara.ac.in">
               {" "}
               <CiMail />{" "}
             </a>

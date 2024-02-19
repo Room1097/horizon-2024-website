@@ -22,10 +22,10 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
         <div className="absolute inset-0">
           <BlurImage
             image="/images/SponsorCard/base.svg"
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="missing"
-            rounded="rounded-xl"
+            rounded="rounded-sm"
           />
         </div>
         <div
