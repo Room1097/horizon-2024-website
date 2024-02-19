@@ -8,10 +8,11 @@ interface SponsorCardProps {
   name: string;
   title: string;
   subtitle: string;
+  large: boolean;
 }
 
 const SponsorCard: React.FC<SponsorCardProps> = (props) => {
-  const { img, name, title, subtitle } = props;
+  const { img, name, title, subtitle, large } = props;
 
   return (
     <div className="flex flex-col justify-center items-center">
@@ -27,7 +28,7 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
           rounded="rounded-xl"
         />
       </div>
-      <div className="w-[16rem] absolute top-[30%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
+      <div className={`${name === "Azure" && "lg:w-[24rem] w-[22rem]"}  ${large ? "w-[20rem]": "w-[16rem]" } absolute top-[30%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center`}>
         <Image
           src={img}
           width={800}
