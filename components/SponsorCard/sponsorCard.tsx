@@ -18,14 +18,14 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
     <div className="flex flex-col justify-center items-center">
       <h1 className="font-mono text-xl">{title}</h1>
       <h1 className="font-mono text-xl">{subtitle}</h1>
-      <div className="main-sponsor-box w-[20rem] h-[20rem] relative">
+      <div className="main-sponsor-box w-[22rem] h-[20rem] relative">
         <div className="absolute inset-0">
           <BlurImage
-            image="/images/SponsorCard/base.svg"
-            width={200}
-            height={200}
+            image="/images/SponsorCard/basee.svg"
+            width={190}
+            height={190}
             alt="missing"
-            rounded="rounded-sm"
+            // rounded="rounded-sm"
           />
         </div>
         <div
@@ -34,7 +34,8 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
           } absolute top-[30%] ${
             name === "Azure" ? "left-[54%]" : "left-[50%]"
           } transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center
-            ${name === "RevUP" ? "w-[10rem]"  : ""}
+           
+            ${name === "RevUP" && "scale-150"}
           `}
         >
           <Image src={img} width={800} height={800} alt="missing" className="bg-cover" />
