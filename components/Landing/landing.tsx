@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Preloader from "../Preloader/preloader";
 import { WavyBackground } from "../Wavy Background/background";
 import gsap from "gsap";
+import { Separator } from "@/components/ui/separator";
 
 const Landing = () => {
 
@@ -45,6 +46,22 @@ const Landing = () => {
           </p>
         </div>
       </WavyBackground>
+      <h1 className=" font-mono w-full text-center text-6xl">
+        About Horizon
+      </h1>
+      <Separator className="my-6 w-11/12 mx-auto bg-primary-foreground"/>
+      <div className=" text-left pl-12 pr-4 lg:text-center text-sm lg:text-lg font-mono mt-8 lg:mt-8 text-zinc-200 flex flex-col gap-8 items-center lg:px-16">
+          <p>
+            Join us for an incredible experience at{" "}
+            <span className="font-primary tracking-widest">HORIZON</span>, the
+            Annual Festival of Indian Institute of Information Technology
+            Vadodara, International Campus Diu! It's not just an event, it's a
+            celebration of technology, innovation, and intellect. Here,
+            participants from all corners of India unite to create something
+            truly extraordinary.
+          </p>
+          </div>
+          
     </div>
   );
 };
