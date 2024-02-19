@@ -21,7 +21,7 @@ export const InfoCardDB = [
       title: "StockOPS Finance Club",
       desc1: "StockOps - The Finance Club, part of IIITV - ICD's Technical Committee, is dedicated to finance education and skill development. Through competitions, and events, it empowers students to understand and engage with financial markets. ",
       desc2: "",
-      img: "/images/Logos/DCODR.png"
+      img: "/images/Logos/STOCKOPS.png"
     },
     {
       title: "Droid Robotics Club",
