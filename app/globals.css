@@ -46,7 +46,12 @@
   font-style: normal;
   font-display: swap;
 }
-
+::-webkit-scrollbar-track{
+  background-color: inherit;
+}
+::-webkit-scrollbar-thumb{
+  background-color: transparent;
+}
 
 
 * {
