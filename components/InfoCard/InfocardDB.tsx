@@ -6,6 +6,18 @@ export const InfoCardDB = [
       img: "/images/Logos/Tech.png"
     },
     {
+      title: "Vector Designing Club",
+      desc1: "Vector, the design club, pioneers modern trends in design. We specialize in precision and dynamic creativity, creating visually impactful and informative designs. Explore the intersection of innovation and aesthetics with Vector, setting new standards in the ever-evolving landscape of design excellence.",
+      desc2: "",
+      img: "/images/Logos/VECTOR.png"
+    },
+    {
+      title: "Droid Robotics Club",
+      desc1: "The Robotics Club of IIITVICD, Droid, was started for students who love to engineer and create modern day solutions to world problems. Robotics is the field where software and hardware engineering meet and this club strives to impart this very passion.",
+      desc2: "Droid aims to inspire students to bring their ideas to life!",
+      img: "/images/Logos/DROID.png"
+    },
+    {
       title: "Argo Gaming Club",
       desc1: "Argo Gaming Club is a vibrant community dedicated to immersive gaming experiences, friendly competition, and fostering connections among enthusiasts. Join us for thrilling tournaments, diverse gaming events, and a welcoming atmosphere where players of all levels can thrive and share their passion for gaming.",
       desc2: "",
@@ -22,12 +34,6 @@ export const InfoCardDB = [
       desc1: "StockOps - The Finance Club, part of IIITV - ICD's Technical Committee, is dedicated to finance education and skill development. Through competitions, and events, it empowers students to understand and engage with financial markets. ",
       desc2: "",
       img: "/images/Logos/STOCKOPS.png"
-    },
-    {
-      title: "Droid Robotics Club",
-      desc1: "The Robotics Club of IIITVICD, Droid, was started for students who love to engineer and create modern day solutions to world problems. Robotics is the field where software and hardware engineering meet and this club strives to impart this very passion.",
-      desc2: "Droid aims to inspire students to bring their ideas to life!",
-      img: "/images/Logos/DROID.png"
     },
   ];
   
