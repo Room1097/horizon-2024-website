@@ -28,7 +28,7 @@ const SponsorCard: React.FC<SponsorCardProps> = (props) => {
           rounded="rounded-xl"
         />
       </div>
-      <div className={`${name === "Azure" && "w-[24rem]"}  ${large ? "w-[20rem]": "w-[16rem]" } absolute top-[30%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center`}>
+      <div className={`${name === "Azure" && "lg:w-[24rem] w-[22rem]"}  ${large ? "w-[20rem]": "w-[16rem]" } absolute top-[30%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center`}>
         <Image
           src={img}
           width={800}
