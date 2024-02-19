@@ -72,6 +72,7 @@ const About = () => {
             key={index}
             title={workshop.title}
             description={workshop.description}
+            image={workshop.image}
           />
         ))}
       </div>
