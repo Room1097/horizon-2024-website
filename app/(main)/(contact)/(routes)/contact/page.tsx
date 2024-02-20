@@ -1,15 +1,7 @@
-'use client'
-import React, { useEffect } from "react";
-// import SponsorInfinite from "@/components/SponsorLogoMoving/SponsorInfinite";
+import React from "react";
 
 const Page = () => {
-  
-
-  return (
-   <div className="pt-20">
-      {/* <SponsorInfinite /> */}
-   </div>
-  );
+  return <div className="pt-20"></div>;
 };
 
 export default Page;
