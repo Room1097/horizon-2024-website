@@ -8,7 +8,44 @@ interface TimelineEventProps {
 
 interface TimelineElementProps {
   date: string;
+  event1 : TimelineEventProps;
+  event2 : TimelineEventProps;
+  event3 ?: TimelineEventProps;
 }
+
+const tlDb = [
+  {
+    date : "24th February",
+    event1:{
+      title : "Event1",
+      startTime : "10:00 am",
+      endTime : "12:00 pm"
+    },
+    event2:{
+      title : "Event1",
+      startTime : "10:00 am",
+      endTime : "12:00 pm"
+    },
+    event3:{
+      title : "Event1",
+      startTime : "10:00 am",
+      endTime : "12:00 pm"
+    }
+  },
+  {
+    date : "25th February",
+    event1:{
+      title : "Event1",
+      startTime : "10:00 am",
+      endTime : "12:00 pm"
+    },
+    event2:{
+      title : "Event1",
+      startTime : "10:00 am",
+      endTime : "12:00 pm"
+    }
+  }
+]
 
 const TimelineEvent: React.FC<TimelineEventProps> = ({ title, startTime, endTime }) => (
   <div>
@@ -20,7 +57,9 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ title, startTime, endTime
   </div>
 );
 
-const TimelineElement: React.FC<TimelineElementProps> = ({ date }) => {
+const TimelineElement: React.FC<TimelineElementProps> = ({ date,event1,event2,event3 }) => {
+  var third = true;
+  if(event3 === undefined){third=false;}
   return (
     <div className="relative flex flex-col gap-4">
       <div className="dot"></div>
@@ -28,15 +67,16 @@ const TimelineElement: React.FC<TimelineElementProps> = ({ date }) => {
         <span className="timeline-date">{date}</span>
         <div className="flex gap-20">
           <TimelineEvent
-            title="Event 1"
-            startTime="10:00 AM"
-            endTime="12:00 PM"
+            title={event1.title}
+            startTime={event1.startTime}
+            endTime={event1.endTime}
           />
           <TimelineEvent
-            title="Event 2"
-            startTime="2:00 PM"
-            endTime="5:00 PM"
+            title={event2.title}
+            startTime={event2.startTime}
+            endTime={event2.endTime}
           />
+          
         </div>
       </div>
     </div>
@@ -51,8 +91,7 @@ const VerticalTimeline = () => {
           <h2 className="group-date font-primary text-center">Horizon 24'</h2>
         </div>
         <div className="timeline">
-          <TimelineElement date="24th February" />
-          <TimelineElement date="25th February" />
+          {tlDb.map((item,index)=><TimelineElement date={item.date} event1={item.event1} event2={item.event2}/>)}
         </div>
       </section>
     </div>
