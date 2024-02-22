@@ -117,7 +117,7 @@ html,body{
 
 @layer components{
   .group-date{
-    @apply text-4xl text-zinc-400 
+    @apply text-zinc-400 
     px-3 py-4 
     font-bold tracking-widest
     uppercase
