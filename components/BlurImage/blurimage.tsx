@@ -26,6 +26,7 @@ const BlurImage: React.FC<BlurImageProps> = ({
         src={image}
         width={width}
         height={height}
+        loading="lazy"
         alt={alt}
         className={`w-full h-full object-cover ${
           zoomin ? "hover:scale-110" : ""

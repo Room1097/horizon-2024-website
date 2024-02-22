@@ -47,7 +47,7 @@ const InfoCard: React.FC<OrganizingCommitteeProps> = ({ title, desc1, desc2, img
       />
 
       <div className="flex flex-col items-start gap-5 justify-between lg:w-[40rem]">
-        <h1 className="text-3xl font-transformer font-zinc-200 tracking-widest uppercase">{title}</h1>
+        <h1 className="text-3xl font-transformer font-zinc-200 tracking-widest uppercase lg:text-left text-center">{title}</h1>
         <p className="text-zinc-400 font-mono">
           {desc1}
         </p>

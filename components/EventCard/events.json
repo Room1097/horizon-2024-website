@@ -1,5 +1,14 @@
 [
     { 
+        "name":"Scrap Web",
+        "Wname":"ScrapWeb",
+        "img":"/images/Posters/ScrapWeb.png",
+        "eventDate":"24th Feb - 2nd Mar",
+        "regDate":"14th Feb",
+        "organizingClub":"Design club",
+        "accent":"violet"
+    }  ,
+    { 
         "name":"Robo Arena",
         "Wname":"RoboArena",
         "img":"/images/Posters/RoboArena.png",
@@ -10,11 +19,39 @@
     }  ,
     { 
         "name":"Balareon",
-        "Wname":"RoboArena",
+        "Wname":"Balareon",
         "img":"/images/Posters/BGMI.png",
         "eventDate":"24th Feb - 2nd Mar",
         "regDate":"14th Feb",
         "organizingClub":"Gaming club",
         "accent":"violet"
+    }  ,
+    { 
+        "name":"Vermithor",
+        "Wname":"Vermithor",
+        "img":"/images/Posters/Vermithor.png",
+        "eventDate":"24th Feb - 2nd Mar",
+        "regDate":"14th Feb",
+        "organizingClub":"Gaming club",
+        "accent":"violet"
+    }  ,
+    { 
+        "name":"Code Voyage",
+        "Wname":"RoboArena",
+        "img":"/images/Posters/Coding.png",
+        "eventDate":"24th Feb - 2nd Mar",
+        "regDate":"14th Feb",
+        "organizingClub":"Coding club",
+        "accent":"violet"
+    }  ,
+    { 
+        "name":"Code-A-Bot",
+        "Wname":"CodeABot",
+        "img":"/images/Posters/HACKATHON.png",
+        "eventDate":"24th Feb - 2nd Mar",
+        "regDate":"14th Feb",
+        "organizingClub":"DCodr & Droid",
+        "accent":"violet"
     }  
+    
  ]

@@ -2,26 +2,24 @@
 import React from "react";
 import { Button } from "../ui/button";
 import BlurImage from "../BlurImage/blurimage";
-interface EventCardProps {
+interface LectureCardProps {
   img: string;
   name: string;
   eventDate: string;
-  regDate: string;
-  organizingClub: string;
-  accent: string;
+  speaker: string;
 }
 
-const EventCard: React.FC<EventCardProps> = (props) => {
-  const { img, name, eventDate, regDate, organizingClub, accent } = props;
+const LectureCard: React.FC<LectureCardProps> = (props) => {
+  const { img, name, eventDate, speaker} = props;
 
   return (
     <div className="border lg:w-max w-[80vw] border-gray-300 rounded-lg p-4 shadow-md flex flex-col">
-      <div className="flex items-center justify-center w-[315px] h-[446px] object-cover">
+      <div className="flex items-center justify-center">
         <BlurImage
           alt="poster"
           image={img}
-          width={210}
-          height={297}
+          width={253}
+          height={400}
           zoomin={false}
           rounded="rounded-xl"
         />
@@ -33,15 +31,12 @@ const EventCard: React.FC<EventCardProps> = (props) => {
           {eventDate}
         </p>
         <p className="text-gray-100">
-          <span className="text-zinc-500 underline">Registration Date</span> : {regDate}
-        </p>
-        <p className="text-gray-100">
-          <span className="text-zinc-500 underline">Organizing Club</span> :{" "}
-          {organizingClub}
+          <span className="text-zinc-500 underline">Speaker</span> :{" "}
+          {speaker}
         </p>
       </div>
     </div>
   );
 };
 
-export default EventCard;
+export default LectureCard;

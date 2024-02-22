@@ -37,6 +37,7 @@ const About = () => {
 
       <div className="text-center mt-8 lg:mt-12 w-full">
         <h1 className="text-4xl tracking-wide font-mono font-bold ">About Us</h1>
+        <Separator className="bg-white py-[0.01rem] w-[80vw] mx-auto"/>
         <div className=" text-left pl-12 pr-4 lg:text-center text-sm lg:text-lg font-mono mt-8 lg:mt-8 text-zinc-200 flex flex-col gap-8 items-center lg:px-16">
           <p>
             Join us for an incredible experience at{" "}

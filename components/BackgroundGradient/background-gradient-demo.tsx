@@ -33,7 +33,7 @@ export function BackgroundGradientDemo({
   };
 
   const handleMailClick = () => {
-    window.open(`mailto:${email}`);
+    window.open(`mailto:${email}@diu.iiitvadodara.ac.in`);
   };
 
   const handleWhatsappClick = () => {
@@ -49,22 +49,22 @@ export function BackgroundGradientDemo({
           alt={name}
           height="200"
           width="200"
-          className="object-cover rounded-xl"
+          className="object-cover rounded-xl w-[15rem] h-[15rem]"
 
         />
        </div>
        <div className="flex justify-center items-center flex-col">
-        <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+        <p className="text-base sm:text-xl font-mono text-black mt-4 mb-2 dark:text-neutral-200">
           {name}
         </p>
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm text-neutral-600 font-mono dark:text-neutral-400">
             {post}
         </p>
-        <div className="flex gap-2 text-xl pt-2">
-            <FaInstagram className="hover:cursor-pointer" onClick={handleInstagramClick} />
-            <CiLinkedin className="hover:cursor-pointer" onClick={handleLinkedinClick} />
-            <CiMail className="hover:cursor-pointer" onClick={handleMailClick} />
-            <FaWhatsapp className="hover:cursor-pointer" onClick={handleWhatsappClick} />
+        <div className="flex gap-2 text-xl pt-2 text-zinc-400">
+            <FaInstagram className="hover:cursor-pointer hover:-translate-y-1 duration-300" onClick={handleInstagramClick} />
+            <CiLinkedin className="hover:cursor-pointer hover:-translate-y-1 duration-300" onClick={handleLinkedinClick} />
+            <CiMail className="hover:cursor-pointer hover:-translate-y-1 duration-300" onClick={handleMailClick} />
+            <FaWhatsapp className="hover:cursor-pointer hover:-translate-y-1 duration-300" onClick={handleWhatsappClick} />
         </div>
        </div>
       </BackgroundGradient>

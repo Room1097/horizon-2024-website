@@ -1,0 +1,28 @@
+[
+    { 
+        "name":"Inaugural Ceremony",
+        "img":"/images/Lectures/Inauguration.png",
+        "eventDate":"24th Feb",
+        "speaker":"Mr. Tushar Singh"
+        
+    }  ,
+    { 
+        "name":"Mock Coding Contest",
+        "img":"/images/Lectures/Coding.png",
+        "eventDate":"24th Feb",
+        "speaker":"Dhruv Bhalodia"
+    }  ,
+    { 
+        "name":"FrontEnd Workshop",
+        "img":"/images/Lectures/Dev.png",
+        "eventDate":"26th Feb",
+        "speaker":"Yuvraj Chauhan"
+    }  ,
+   
+    { 
+        "name":"Introduction to Figma",
+        "img":"/images/Lectures/Figma.png",
+        "eventDate":"27th Feb",
+        "speaker":"Harshit Chouhan"
+    }  
+ ]
