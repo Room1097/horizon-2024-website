@@ -1,8 +1,8 @@
-a {
+.footer a {
     position: relative;
   }
   
-  a::after {
+  .footer a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -15,7 +15,7 @@ a {
     transition: all 0.3s ease-in-out;
   }
   
-  a:hover::after {
+  .footer a:hover::after {
     visibility: visible;
     transform: scaleX(1);
   }
