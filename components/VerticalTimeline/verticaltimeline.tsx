@@ -104,6 +104,11 @@ const tlDb = [
         title: "Scenario Showdown Round-2",
         startTime: "2:00 PM",
         endTime: "5:00 PM"
+      },
+      {
+        title: "Finance Speaker Session",
+        startTime: "6:00 PM",
+        endTime: "8:00 PM"
       }
     ]
   },
@@ -142,9 +147,9 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ title, startTime, endTime
 const TimelineElement: React.FC<TimelineElementProps> = ({ date, events }) => (
   <div className="relative flex flex-col gap-4">
     <div className="dot"></div>
-    <div className="ml-10 border-zinc-800 bg-zinc-900 border-2 p-4 rounded-xl">
+    <div className="ml-10 border-zinc-800 bg-zinc-900 border-2 p-4 rounded-xl mr-8">
       <span className="timeline-date">{date}</span>
-      <div className="flex gap-20">
+      <div className="flex flex-col sm:flex-row gap-20">
         {events.map((event, index) => (
           <TimelineEvent
             key={index}

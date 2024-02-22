@@ -33,11 +33,7 @@ export const preLoaderAnim = () => {
         stagger: 0.2,
         ease: "Power3.easeOut",
     })
-  
-    .to(".landing", {
-        duration: 0.05,
-        css: { overflowY: "hidden", height: "unset" },
-    })
+
     .to("body", {
         duration: 0.1,
         css: { overflowY: "scroll" },
@@ -66,7 +62,7 @@ export const preLoaderAnim = () => {
 };
   
 export const mobileLanding = () => {
-    window.innerWidth < 763 &&
+    window.innerWidth < 768 &&
     tl.from(".landing__main2", {
         duration: 1,
         delay: 0,

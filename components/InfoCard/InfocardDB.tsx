@@ -6,6 +6,12 @@ export const InfoCardDB = [
       img: "/images/Logos/Tech.png"
     },
     {
+      title: "DCodr Coding Club",
+      desc1: "DCodr is the premier coding club at IIIT Vadodara - ICD, dedicated to fostering a competitive coding environment. Through regular competitions, workshops, and collaborative projects, we empower students to hone their coding skills and expand their knowledge.",
+      desc2: " At DCodr, we believe in the power of code to shape the future, ignite creativity, and solve complex problems.",
+      img: "/images/Logos/DCODR.png"
+    },
+    {
       title: "Vector Designing Club",
       desc1: "Vector, the design club, pioneers modern trends in design. We specialize in precision and dynamic creativity, creating visually impactful and informative designs. Explore the intersection of innovation and aesthetics with Vector, setting new standards in the ever-evolving landscape of design excellence.",
       desc2: "",
@@ -23,12 +29,7 @@ export const InfoCardDB = [
       desc2: "",
       img: "/images/Logos/ARGO.png"
     },
-    {
-      title: "DCodr Coding Club",
-      desc1: "DCodr is the premier coding club at IIIT Vadodara - ICD, dedicated to fostering a competitive coding environment. Through regular competitions, workshops, and collaborative projects, we empower students to hone their coding skills and expand their knowledge.",
-      desc2: " At DCodr, we believe in the power of code to shape the future, ignite creativity, and solve complex problems.",
-      img: "/images/Logos/DCODR.png"
-    },
+   
     {
       title: "StockOPS Finance Club",
       desc1: "StockOps - The Finance Club, part of IIITV - ICD's Technical Committee, is dedicated to finance education and skill development. Through competitions, and events, it empowers students to understand and engage with financial markets. ",
