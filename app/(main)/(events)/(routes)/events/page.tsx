@@ -22,7 +22,7 @@ const Page = () => {
         <Separator className="mt-9 w-[90%] bg-zinc-500" />
       </div>
 
-      <div className="flex lg:flex-row flex-col lg:py-8 py-4 justify-center items-center gap-8">
+      <div className="flex lg:flex-row flex-col flex-wrap lg:py-8 py-4 justify-center items-center gap-8">
         {events.map((event) => (
           <Link key={event.Wname} href={`/events/${event.Wname}`}>
             <EventCard

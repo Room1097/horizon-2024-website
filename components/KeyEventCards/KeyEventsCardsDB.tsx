@@ -21,7 +21,7 @@ export const eventDets = [
     },
     {
         title: "Vermithor",
-        poster:"/images/Posters/Vermithor.png",
+        poster:"/images/Posters/Valorant.png",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolorem magnam tempora vero quas eaque omnis ducimus? Ut earum reiciendis aperiam laboriosam sequi, voluptatem voluptate in dicta quas repellat laborum obcaecati fugiat corrupti deleniti dolore rem iure, unde tenetur nemo?"
     },
     

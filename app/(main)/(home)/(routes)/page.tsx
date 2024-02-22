@@ -20,8 +20,8 @@ const Home = () => {
       </div>
       <Separator className="my-6 w-11/12 mx-auto p-[0.05rem] bg-zinc-700"/>
       <div className="flex flex-col items-center w-full">
-        <h1 className="font-fancy pb-8 text-3xl">Key Events</h1>
-        <div className="flex flex-col w-full justify-center items-center gap-8">
+        <h1 className="font-fancy pb-8 text-3xl ">Key Events</h1>
+        <div className="flex flex-col w-full  justify-center items-center gap-8">
           {eventDets.map((event, index) => (
             <KeyEventCards
               key={index}
