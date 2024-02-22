@@ -19,7 +19,7 @@ const FullLengthNavbar = () => {
 
   return (
     <div className='font-mono flex gap-8 pr-2 items-end lg:flex-row flex-col md:flex-row text-lg lg:bg-transparent pl-12 h-screen lg:h-max lg:pt-2 lg:pl-0 bg-slate-700/90' >
-      {["Home", "About", "Guests", "Sponsors", "Team", "Events", "Contact"].map((item, index) => (
+      {["Home", "About", "Lectures", "Sponsors", "Team", "Events", "Contact"].map((item, index) => (
         <Link className='links' key={index} href={index !== 0 ? `/${item.toLowerCase()}` : '/'} passHref>
           <div>{item}</div>
         </Link>
