@@ -49,7 +49,7 @@ export function BackgroundGradientDemo({
           alt={name}
           height="200"
           width="200"
-          className="object-cover rounded-xl"
+          className="object-cover rounded-xl w-[15rem] h-[15rem]"
 
         />
        </div>
