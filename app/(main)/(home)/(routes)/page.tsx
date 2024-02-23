@@ -7,7 +7,7 @@ import { Separator } from "@radix-ui/react-separator";
 import SponsorInfinite from "@/components/SponsorLogoMoving/SponsorInfinite";
 import KeyEventCards from "@/components/KeyEventCards/keyeventcards";
 import { eventDets } from "@/components/KeyEventCards/KeyEventsCardsDB";
-import VerticalTMLN from "@/components/VerticalTimeline/verticaltimeline";
+import VerticalTimeline from "@/components/VerticalTimeline/verticaltimeline";
 
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
       <Landing />
       <Separator className="my-6 w-11/12 mx-auto p-[0.05rem] bg-zinc-700"/>
       <div className="flex flex-col items-center w-full overflow-hidden">
-        <h1 className="font-mono text-4xl mb-8">Meet our Sponsors!</h1>
+        <h1 className="font-mono text-center text-4xl mb-8">Meet our Sponsors!</h1>
         <SponsorInfinite />
       </div>
       {/* <Separator className="my-6 w-11/12 mx-auto p-[0.05rem] bg-zinc-700"/> */}
@@ -38,7 +38,7 @@ const Home = () => {
 
       <Separator className="my-6 w-11/12 mx-auto p-[0.05rem] bg-zinc-700"/>
       <div>
-        <VerticalTMLN />
+        <VerticalTimeline />
       </div>
     </div>
   );
