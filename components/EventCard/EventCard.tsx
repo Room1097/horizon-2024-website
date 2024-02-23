@@ -17,7 +17,7 @@ const EventCard: React.FC<EventCardProps> = (props) => {
   return (
     <div className="border lg:w-max w-[full] mx-2 lg:max-w-[24rem] border-gray-300 rounded-lg lg:p-4 p-6 shadow-md flex flex-col">
       <div className="flex items-center rounded-xl overflow-hidden justify-center object-cover">
-      <img src={img} alt="" className="object-contain rounded-xl w-[75vw] lg:w-[19.6875rem] h-[27.8125rem] lg:h-[28rem]"/>
+      <img src={img} alt="" className="object-contain rounded-xl w-[75vw] lg:w-[19.6875rem] h-[27.8125rem] lg:h-[28rem]" loading="lazy" />
       </div>
       <div className="mt-4 font-mono">
         <h2 className="text-xl lg:text-[1.25rem] font-semibold">{name}</h2>
