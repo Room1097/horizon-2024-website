@@ -13,16 +13,9 @@ const LectureCard: React.FC<LectureCardProps> = (props) => {
   const { img, name, eventDate, speaker} = props;
 
   return (
-    <div className="border lg:w-max w-[80vw] border-gray-300 rounded-lg p-4 shadow-md flex flex-col">
-      <div className="flex lg:w-[20] lg:h-[31.25rem] items-center justify-center">
-        <BlurImage
-          alt="poster"
-          image={img}
-          width={253}
-          height={400}
-          zoomin={false}
-          rounded="rounded-xl"
-        />
+    <div className="border justify-center items-center lg:w-max w-[80vw] border-gray-300 rounded-lg p-4 shadow-md flex flex-col">
+      <div className="flex  items-center justify-center">
+        <img src={img} alt="" className="w-[20rem] h-[31.25rem] object-contain rounded-xl"/>
       </div>
       <div className="mt-4 font-mono">
         <h2 className="text-xl font-semibold">{name}</h2>

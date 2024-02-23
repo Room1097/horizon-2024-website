@@ -28,7 +28,7 @@ const BlurImage: React.FC<BlurImageProps> = ({
         height={height}
         loading="lazy"
         alt={alt}
-        className={`w-full h-full object-cover ${
+        className={`w-full h-full object-contain ${
           zoomin ? "hover:scale-110" : ""
         } transition-all duration-300 ${
           isLoading ? "scale-110 blur-2xl" : "scale-100 blur-0"
