@@ -14,7 +14,7 @@ const LectureCard: React.FC<LectureCardProps> = (props) => {
 
   return (
     <div className="border lg:w-max w-[80vw] border-gray-300 rounded-lg p-4 shadow-md flex flex-col">
-      <div className="flex items-center justify-center">
+      <div className="flex lg:w-[20] lg:h-[31.25rem] items-center justify-center">
         <BlurImage
           alt="poster"
           image={img}
