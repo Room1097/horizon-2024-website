@@ -8,7 +8,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="flex footer lg:flex-row flex-col gap-20 justify-around mt-20 items-center pb-8 ">
+    <div className="flex foote lg:flex-row flex-col gap-20 justify-around mt-20 items-center pb-8 ">
       <div className="flex flex-col justify-center gap-8 items-center ">
         <img src="/images/H_logo_.svg" className="w-[8rem]" alt="" />
         <ul className="flex gap-4 lg:w-[24rem] w-[20rem] text-xl flex-wrap items-center justify-center">
@@ -23,8 +23,8 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a className="flex justify-center items-center" href="/guests">
-              Guest<MdOutlineArrowOutward />
+            <a className="flex justify-center items-center" href="/lectures">
+              Lectures<MdOutlineArrowOutward />
             </a>
           </li>
           <li>
@@ -77,28 +77,28 @@ const Footer = () => {
         <ul className="flex gap-8 text-zinc-400">
           <li className="hover:translate-y-[-6px] duration-300 text-4xl">
             {" "}
-            <a className="flex justify-center items-center" href="https://www.instagram.com/technical_iiitvicd/">
+            <a target="_blank" className="flex justify-center items-center" href="https://www.instagram.com/technical_iiitvicd/">
               {" "}
               <FaInstagram />{" "}
             </a>
           </li>
           <li className="hover:translate-y-[-6px] duration-300 text-4xl">
             {" "}
-            <a className="flex justify-center items-center" href="mailto:technical@diu.iiitvadodara.ac.in">
+            <a target="_blank" className="flex justify-center items-center" href="mailto:technical@diu.iiitvadodara.ac.in">
               {" "}
               <CiMail />{" "}
             </a>
           </li>
           <li className="hover:translate-y-[-6px] duration-300 text-4xl">
             {" "}
-            <a className="flex justify-center items-center" href="">
+            <a target="_blank" className="flex justify-center items-center" href="https://chat.whatsapp.com/JDUjbt9eCrd44sC6Xhi90d">
               {" "}
               <FaWhatsapp />{" "}
             </a>
           </li>
           <li className="hover:translate-y-[-6px] duration-300 text-4xl">
             {" "}
-            <a className="flex justify-center items-center" href="">
+            <a target="_blank" className="flex justify-center items-center" href="https://www.linkedin.com/company/technical-committee-iiitv-icd/">
               <CiLinkedin />{" "}
             </a>
           </li>
