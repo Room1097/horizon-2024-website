@@ -16,7 +16,7 @@ const EventCard: React.FC<EventCardProps> = (props) => {
 
   return (
     <div className="border lg:w-max w-full lg:max-w-[24rem] border-gray-300 rounded-lg p-4 lg:p-[0.75rem] shadow-md flex flex-col">
-      <div className="flex items-center justify-center w-[75vw] lg:w-[19.6875rem] h-[27.8125rem] lg:h-[22rem] object-cover">
+      <div className="flex items-center justify-center w-[75vw] lg:w-[19.6875rem] h-[27.8125rem] lg:h-[28rem] object-cover">
         <BlurImage
           alt="poster"
           image={img}
